@@ -104,11 +104,14 @@ a:hover { color: #996600; }
 /* ページボディ */
 #pageBody {
 	margin-top: 30px;
+	zoom: 1;
 }
 #pageBody:after {
 	content: "";
 	clear: both;
 	display: block;
+	height: 0px;
+	visibility: hidden;
 }
 
 #pageBodyMain {
@@ -373,6 +376,7 @@ a:hover { color: #996600; }
 	left: 50px;
 	bottom: 50px;
 	color: #FFF;
+	background-color: #666666;
 	background-color: rgba(0,0,0,0.4);
 	width: 400px;
 	padding: 15px 25px;
